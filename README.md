@@ -1,5 +1,5 @@
 ====================================
-📱 WEEK 2 – INTERACTIVE QUIZ APP
+📱 WEEK 2 – Flashcard App
 ====================================
 
 An Android application built with Kotlin that provides a simple interactive quiz experience. 
@@ -46,4 +46,8 @@ feedback with visual cues (correct/incorrect highlights).
 ------------------------------------
 Seth Luxama Pierre Louis
 Passionate about science, and technology
+
+------------------------------------
+![Week2 FlashCardApp Luxama](https://github.com/user-attachments/assets/067b898b-0250-4b3d-ac2b-a5135842cb14)
+
 
