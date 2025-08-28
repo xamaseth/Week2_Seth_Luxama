@@ -1,6 +1,6 @@
-====================================
+
 📱 WEEK 2 – Flashcard App
-====================================
+------------------------------------
 
 An Android application built with Kotlin that provides a simple interactive quiz experience. 
 The app allows users to toggle question visibility, select answers, and receive immediate 
