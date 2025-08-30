@@ -21,7 +21,7 @@
         android:layout_marginBottom="65dp"
         android:background="@drawable/kesyonbg"
         android:gravity="center"
-        android:text="Ki dat Dessaline te mouri?"
+        android:text="@string/question1"
         android:textColor="#FFFFFF"
         android:textSize="40sp"/>
 
@@ -48,7 +48,7 @@
             android:layout_marginBottom="10dp"
             android:background="@drawable/texde"
             android:clickable="true"
-            android:text="17 oktob 2003"
+            android:text="@string/op1question1"
             android:textAlignment="center"
             android:textSize="16sp" />
 
@@ -59,7 +59,7 @@
             android:layout_marginBottom="10dp"
             android:background="@drawable/texde"
             android:clickable="true"
-            android:text="17 oktob 1805"
+            android:text="@string/op2question1"
             android:textAlignment="center"
             android:textSize="16sp"/>
 
@@ -70,7 +70,7 @@
             android:layout_marginBottom="10dp"
             android:background="@drawable/texde"
             android:clickable="true"
-            android:text="17 oktob 1806"
+            android:text="@string/op3question1"
             android:textAlignment="center"
             android:textSize="16sp"/>
     </LinearLayout>

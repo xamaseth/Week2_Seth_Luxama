@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Week2_Seth_Luxama</string>
+    <string name="question1">Ki dat Dessaline te mouri?</string>
+    <string name="op1question1">17 oktob 2003</string>
+    <string name="op2question1">17 oktob 1805</string>
+    <string name="op3question1">17 oktob 1806</string>
+
 </resources>
