@@ -48,6 +48,7 @@ Seth Luxama Pierre Louis
 Passionate about science, and technology
 
 ------------------------------------
-![Week2 FlashCardApp Luxama](https://github.com/user-attachments/assets/067b898b-0250-4b3d-ac2b-a5135842cb14)
+
+![Luxama FlashCard](https://github.com/user-attachments/assets/afa78a11-95c8-4b08-9608-8a5e05490a84)
 
 
