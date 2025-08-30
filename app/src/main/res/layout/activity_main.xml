@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -9,22 +9,30 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/linear"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="65dp"
         android:background="@drawable/kesyonbg"
+        android:gravity="center"
         android:text="Ki dat Dessaline te mouri?"
         android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/linear"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="40sp"/>
+
 
     <LinearLayout
 
         android:id="@+id/linear"
         android:layout_width="410dp"
         android:layout_height="369dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="144dp"
         android:orientation="vertical"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -39,9 +47,10 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:background="@drawable/texde"
+            android:clickable="true"
             android:text="17 oktob 2003"
             android:textAlignment="center"
-            android:clickable="true"/>
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textView3"
@@ -49,9 +58,10 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:background="@drawable/texde"
+            android:clickable="true"
             android:text="17 oktob 1805"
             android:textAlignment="center"
-            android:clickable="true"/>
+            android:textSize="16sp"/>
 
         <TextView
             android:id="@+id/textView4"
@@ -59,18 +69,25 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:background="@drawable/texde"
+            android:clickable="true"
             android:text="17 oktob 1806"
             android:textAlignment="center"
-            android:clickable="true"/>
+            android:textSize="16sp"/>
     </LinearLayout>
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="152dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linear"
         app:srcCompat="@drawable/myec_foreground" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

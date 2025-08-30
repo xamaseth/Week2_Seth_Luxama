@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.widget.TextView
-import androidx.constraintlayout.widget.ConstraintLayout
+import android.widget.RelativeLayout
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         val button1= findViewById<ImageView>(R.id.imageView)
         var Layout1 = findViewById<LinearLayout>(R.id.linear)
-        var screen = findViewById<ConstraintLayout>(R.id.main)
+        var screen = findViewById<RelativeLayout>(R.id.main)
         var questionplace=findViewById<TextView>(R.id.textView)
 
 
@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
 
         val allOptions = listOf(option1, option2, option3)
 
-// korek unser
+// korek repns
         val correctAnswer = option3
 
         option1.setOnClickListener {
